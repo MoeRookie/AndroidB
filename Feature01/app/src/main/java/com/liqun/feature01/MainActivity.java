@@ -3,7 +3,7 @@ package com.liqun.feature01;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-
+// 1.1. Activity的生命周期全面分析
 public class MainActivity extends AppCompatActivity {
 
     @Override
