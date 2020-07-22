@@ -34,4 +34,16 @@ public class MainActivity extends AppCompatActivity {
     }
 
     // 不能在onPause(...)方法中做耗时操作, 因为必须等到此方法执行完才能够执行新activity的onResume(...)方法
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        Log.e(TAG, "MainActivity.onPause: 方法被调用了 ...");
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        Log.e(TAG, "MainActivity.onStop: 方法被调用了 ...");
+    }
 }
