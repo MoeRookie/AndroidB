@@ -32,4 +32,6 @@ public class MainActivity extends AppCompatActivity {
         super.onRestart();
         Log.e(TAG, "MainActivity.onRestart: 方法被调用了 ...");
     }
+
+    // 不能在onPause(...)方法中做耗时操作, 因为必须等到此方法执行完才能够执行新activity的onResume(...)方法
 }
