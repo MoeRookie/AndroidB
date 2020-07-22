@@ -2,11 +2,11 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <Button
-        android:id="@+id/btn_enter_main2"
+    <TextView
         android:layout_centerInParent="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="跳转Main2Activity"
-        android:textAllCaps="false"/>
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
+        android:text="我是Main2Activity"/>
 </RelativeLayout>
