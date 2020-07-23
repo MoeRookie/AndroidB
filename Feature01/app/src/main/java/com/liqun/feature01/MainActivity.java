@@ -13,6 +13,8 @@ import android.view.View;
 // 1.1. Activity的生命周期全面分析
 // 1.1.1. 典型情况下的生命周期分析
 // 1.1.2. 异常情况下的生命周期分析
+
+// 1.2. Activity的启动模式
 public class MainActivity extends AppCompatActivity {
 
     public static final String TAG = MainActivity.class.getSimpleName();
