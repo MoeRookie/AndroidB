@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.res.Configuration;
 import android.os.Bundle;
 import android.os.SystemClock;
 import android.util.Log;
@@ -68,5 +69,11 @@ public class MainActivity extends AppCompatActivity {
         super.onSaveInstanceState(outState);
         Log.e(TAG, "[onSaveInstanceState]");
         outState.putString(KEY_0,"test");
+    }
+
+    @Override
+    public void onConfigurationChanged(@NonNull Configuration newConfig) {
+        super.onConfigurationChanged(newConfig);
+        Log.e(TAG, "onConfigurationChanged, newOrientation:" + newConfig.orientation );
     }
 }
