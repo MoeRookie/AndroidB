@@ -2,6 +2,14 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+    <!--
+        测试系统的数据恢复能力:
+        Android系统存储和还原View的状态必须有一个唯一的ID
+    -->
+    <EditText
+        android:id="@+id/et_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
     <Button
         android:id="@+id/btn_enter_main2"
         android:layout_centerInParent="true"
