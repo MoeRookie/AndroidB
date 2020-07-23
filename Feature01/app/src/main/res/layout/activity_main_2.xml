@@ -9,4 +9,11 @@
         android:textColor="@android:color/black"
         android:textSize="22sp"
         android:text="我是Main2Activity"/>
+    <Button
+        android:id="@+id/btn_enter_main"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转MainActivity"
+        android:textAllCaps="false"/>
 </RelativeLayout>
