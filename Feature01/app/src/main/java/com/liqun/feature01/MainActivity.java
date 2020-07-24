@@ -16,6 +16,7 @@ import android.view.View;
 
 // 1.2. Activity的启动模式
 // 1.2.1. Activity的LaunchMode
+// 1.2.2. Activity的Flags
 public class MainActivity extends AppCompatActivity {
 
     public static final String TAG = MainActivity.class.getSimpleName();
