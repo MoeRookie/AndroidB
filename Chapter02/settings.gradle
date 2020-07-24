@@ -1,2 +1,2 @@
-include ':app'
+include ':Section01'
 rootProject.name = "Chapter02"
