@@ -11,6 +11,7 @@ import android.view.View;
 // 2.2. Android中的多进程模式
 // 2.2.1. 开启多进程模式
 // 2.2.2. 多进程模式的运行机制
+// 2.3. IPC基础概念介绍
 public class MainActivity extends AppCompatActivity {
 
     public static final String TAG = MainActivity.class.getSimpleName();
