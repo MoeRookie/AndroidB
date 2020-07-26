@@ -12,6 +12,7 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 // 2.3.1. Serializable接口
 // 2.3.2. Parcelable接口
+// 2.3.3. Binder
 public class MainActivity extends AppCompatActivity {
     private static final String TAG = "MainActivity";
 
